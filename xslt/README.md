@@ -17,3 +17,5 @@ wget -i downloadlinks.txt
 --ggf. Kodierungsfehler/Sonderzeichenfehler beheben
 
 --Transformierten, angepassten XML-Export in die neue CMS-Instanz importieren (Werkzeuge -> Daten importieren)
+
+--Das Ergebnis: https://geographie.cms.rrze.uni-erlangen.de/person/
