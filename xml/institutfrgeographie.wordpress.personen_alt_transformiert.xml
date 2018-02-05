@@ -4,6 +4,11 @@
 <!-- Download these files with wget-->
 <!-- Use your regex(es) again with find&replace to update all links to the new site's corresponding URLs in this document-->
 <!-- Save the file and import your modified, transformed XML to the new site. Done. -->
+
+<!-- Note that only relevant old custom fields like "curriculum_viate" or "forschung" are regrouped into content:encoded -->
+<!-- Contact data, which was stored in custom fields like "titel" or "adresse", is deprecated anyways/will get lost -->
+<!-- You just have to add contact information via univis id and new profile pictures to new contacts manually after import -->
+
 <rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:wfw="http://wellformedweb.org/CommentAPI/"
