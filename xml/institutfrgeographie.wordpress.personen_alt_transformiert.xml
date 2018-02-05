@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is the transformed XML export. You now have to find all links to files (image, pdfs) (this could be automated in XSL as well)-->
+<!-- Here e.g. with 'grep -o http:\/\/www\.geographie\.nat\.uni-erlangen\.de\/wp-content\/uploads\/.+?(pdf|txt|jpg|png|gif)'-->
+<!-- Download these files with wget-->
+<!-- Use your regex(es) again with find&replace to update all links to the new site's corresponding URLs in this document-->
+<!-- Save the file and import your modified, transformed XML to the new site. Done. -->
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/">
+   <channel>
+      <title>Institut für Geographie</title>
+      <link>http://www.geographie.nat.uni-erlangen.de</link>
+      <description>Friedrich-Alexander-Universität Erlangen-Nürnberg</description>
+      <pubDate>Mon, 29 Jan 2018 13:09:37 +0000</pubDate>
+      <language>de-DE</language>
+      <wp:wxr_version>1.2</wp:wxr_version>
+      <wp:base_site_url>http://www.geographie.nat.uni-erlangen.de</wp:base_site_url>
+      <wp:base_blog_url>http://www.geographie.nat.uni-erlangen.de</wp:base_blog_url>
+      <wp:author>
+         <wp:author_id>35</wp:author_id>
+         <wp:author_login><![CDATA[jgemeinholzer]]></wp:author_login>
+         <wp:author_email><![CDATA[jan@geminisys.de]]></wp:author_email>
+         <wp:author_display_name><![CDATA[Jan Gemeinholzer]]></wp:author_display_name>
+         <wp:author_first_name><![CDATA[Jan]]></wp:author_first_name>
+         <wp:author_last_name><![CDATA[Gemeinholzer]]></wp:author_last_name>
+      </wp:author>
+      <generator>https://wordpress.org/?v=4.4.14</generator>
+      <item>
+         <title>Sabine Donner</title>
+         <link>http://www.geographie.nat.uni-erlangen.de/personen/sdonner/</link>
+         <pubDate>Mon, 24 Jun 2013 13:39:38 +0000</pubDate>
+         <dc:creator><![CDATA[so01zagy]]></dc:creator>
+         <guid isPermaLink="false">http://archiv.geographie.uni-erlangen.de/?post_type=personen&amp;p=1126</guid>
+         <description/>
+         <content:encoded><![CDATA[[collapsibles][collapse title="Weiteres" color="natfak"]<ul>
+	<li><span style="font-family: Arial,Helvetica,sans-serif;">Sekretariat - Zentrales Auskunftsbüro (keine Studienangelegenheiten), Vorstand
+</span></li>
+	<li><span style="font-family: Arial,Helvetica,sans-serif;">Raummanagement - Raumvergabe für Einzel- und Sonderveranstaltungen (Hörsaal C, Seminar- und CIP-Raum</span><span style="font-family: Arial,Helvetica,sans-serif;">)</span></li>
+	<li><span style="font-family: Arial,Helvetica,sans-serif;">Univis-Beauftragte</span></li>
+	<li><span style="font-family: Arial,Helvetica,sans-serif;">Koordination Institutsveranstaltungen
+</span></li>
+	<li><span style="font-family: Arial,Helvetica,sans-serif;">Ansprechpartnerin für den Newsletter</span></li>
+	<li><span style="font-family: Arial,Helvetica,sans-serif;">FGG-Geschäftsstelle - Sekretariat</span></li>
+</ul>[/collapse][/collapsibles]]]></content:encoded>
+         <excerpt:encoded/>
+         <wp:post_id>1126</wp:post_id>
+         <wp:post_date><![CDATA[2017-12-06 16:27:41]]></wp:post_date>
+         <wp:post_date_gmt><![CDATA[2017-12-06 15:27:41]]></wp:post_date_gmt>
+         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+         <wp:post_name><![CDATA[sdonner]]></wp:post_name>
+         <wp:status><![CDATA[publish]]></wp:status>
+         <wp:post_parent>0</wp:post_parent>
+         <wp:menu_order>0</wp:menu_order>
+         <wp:post_type><![CDATA[person]]></wp:post_type>
+         <wp:post_password><![CDATA[]]></wp:post_password>
+         <wp:is_sticky>0</wp:is_sticky>
+         <category domain="persons_category" nicename="geschaeftsstelle-fgg"><![CDATA[Geschäftsstelle FGG]]></category>
+         <category domain="persons_category" nicename="sekretariat"><![CDATA[Sekretariat]]></category>
+         <category domain="persons_category"
+                   nicename="technisches-administratives-personal"><![CDATA[Technisches / Administratives Personal]]></category>
+         <wp:postmeta/>
+      </item>
+      <item>
+         <title>Henning Füller</title>
+         <link>http://www.geographie.nat.uni-erlangen.de/personen/hfueller/</link>
+         <pubDate>Wed, 03 Jul 2013 07:03:32 +0000</pubDate>
+         <dc:creator><![CDATA[so01zagy]]></dc:creator>
+         <guid isPermaLink="false">http://archiv.geographie.uni-erlangen.de/?post_type=personen&amp;p=1149</guid>
+         <description/>
+         <content:encoded><![CDATA[Seit Oktober 2014 am <a href="https://www.geographie.hu-berlin.de/Members/1688062" target="_blank">Geographischen Institut</a> der Humboldt-Universität zu Berlin.[collapsibles][collapse title="Curriculum Vitae" color="natfak"]seit Oktober 2014 wiss. Mitarbeiter am Geographischen Institut, Humboldt-Universität Berlin
+
+April 2009 - Oktober 2014 wiss. Mitarbeiter, Institut für Geographie, Universität Erlangen-Nürnberg Forschung und Lehre am Lehrstuhl für Kulturgeographie und Orientforschung, Prof. Dr. Georg Glasze
+
+Feb. 2006 - Aug. 2009 wiss. Mitarbeiter, Institut für Humangeographie, Universität Frankfurt am Main Mitarbeit im DFG-Forschungsprojekt „Urban Discourses“, Erstellung der Promotion, Einwerben von Drittmittel-Projekten, Konferenzorganisation, Lehre
+
+Jan. 2005 – Juni 2005 Werkvertrag Bezirksamt Neukölln in Berlin. Erstellung einer Broschüre zur LOS-Projektförderung im Rahmen der ‚Sozialen Stadt“Akademische Ausbildung
+
+Februar 2005 Diplomprüfung Politikwissenschaft, Otto-Suhr-Institut, Freie Universität Berlin
+
+Okt. 2001 – Feb. 2005 Studium Diplom-Politikwissenschaft an der Freien Universität Berlin
+
+Okt. 2000 – Aug. 2001 Erasmus-Aufenthalt in Valencia, Spanien Studium der Volkswirtschaft und Politikwissenschaften an der Universidad de Valencia
+
+Okt. 1998 – Juni 2000 Studium der Sozialwissenschaften an der Universität Göttingen. Fächer: Politik, Soziologie, Volkswirtschaft, öffentliches Recht
+
+Juni 1997 Abitur am Gymnasium Vaterstetten
+
+&nbsp;
+<h2>Weitere Erfahrungen</h2>
+August 2006 Teilnahme am EU geförderten Austauschprogramm „Future Urban Research in Europe“ zum Thema Urban Governance in Örebrø, Schweden
+
+Dez. 2005 - Jan. 2006 Leitung einer Studienreise des Internationalen Arbeitskreises e.V. nach Chile
+
+2003 - 2005 freie Mitarbeit in der Redaktion „Das Argument. Zeitschrift für Philosophie und Sozialwissenschaften“, Berlin
+
+&nbsp;
+<h2>Vorträge (Auswahl)</h2>
+Spillover of the private city - BIDs as pivot of social control in Downtown Los Angeles, 5th International Conference of the Research Network, Research Network Private Urban Governance and Gated Communities, Santiago de Chile, Chile, 2009
+
+„Urban Renaissance“ and the Planning of Urbanity as Ways of Governing Contemporary Cities, Session „The New Urban Politics“, Annual Meeting of the Association of American Geographers, Las Vegas, USA, 2009
+
+Soft Urbanism - Sophistication of Security Policies in the New Downtown of Los Angeles, Session ‚The New Urbanism and the Making of Sustainable Cities‘, RGS/IGB Annual Conference, London, 2008
+
+Sicheres Wohnen als Medium sozialer Kontrolle, Fachreferat Panel CA1 - Leitthemensitzung „Risikokulturen“, Deutscher Geographentag, Bayreuth, 2007
+
+„Mit Sicherheit Zuhause“ - Kontrolle und Exklusion durch Vergemeinschaftung in Planned Development Communities, Konferenz „Das exkludierte Andere und Wir“, Institut für Sicherheit und Präventionsforschung (ISIP), Hamburg, 2006[/collapse][collapse title="Publikationen" color="natfak"]<h2>Monographien</h2>
+<ul>
+	<li>Füller, Henning und Boris Michel (2012, Hg.): Die Ordnung der Räume. Geographische Forschung im Anschluss an Michel Foucault. Münster: Westfälisches Dampfboot (<a href="http://www.dampfboot-verlag.de/buecher/917-5.html">Link zum Verlag<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Link zum Verlag" border="0" /><img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Link zum Verlag" border="0" /></a>)</li>
+	<li>Füller, Henning und Nadine Marquardt (2010): Sicherstellung von Urbanität. Innerstädtische Restrukturierung und soziale Kontrolle in Downtown Los Angeles. Münster: Westfälisches Dampfboot. (<a href="http://www.dampfboot-verlag.de/buecher/860-4.html">Link zum Verlag<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Link zum Verlag" border="0" /><img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Link zum Verlag" border="0" /></a>)</li>
+</ul>
+<h2>Aufsätze in rezensierten Fachzeitschriften</h2>
+<ul>
+	<li></li>
+	<li>(2014): Regionalforschung in der Geographie und interdisziplinäre<em> area studies</em> nach dem <em>cultural turn</em>: eine Einführung. In: Geographische Zeitschrift 102, S. 1–6. (mit Georg Glasze, Shadia Husseini de Araujo, Boris Michel)</li>
+	<li></li>
+	<li>(2014) ‘Stop Being A Tourist!’ New dynamics of urban tourism in Berlin-Kreuzberg. <em>International Journal of Urban and Regional Research</em> Early View (<a href="http://geographie.uni-erlangen.de/%22http:/onlinelibrary.wiley.com/enhanced/doi/10.1111/1468-2427.12124/%E2%80%9C">DOI: 10.1111/1468-2427.12124</a>) (mit Boris Michel)</li>
+	<li>(2013) Urbanität nach exklusivem Rezept. Die Ausdeutung des Städtischen durch hochpreisige Immobilienprojekte in Berlin und Los Angeles. s u b u r b a n. zeitschrift für kritische stadtforschung, 1(1), S. 31-48, Verfügbar unter: <a href="http://www.zeitschrift-suburban.de/sys/index.php/suburban/article/view/3/105">http://www.zeitschrift-suburban.de/sys/index.php/suburban/article/view/3/105<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="http://www.zeitschrift-suburban.de/sys/index.php/suburban/article/view/3/105" border="0" /></a> (mit Nadine Marquardt, Georg Glasze, Robert Pütz).</li>
+	<li>(2013) Shaping the Urban Renaissance: New-build Luxury Developments in Berlin. <em>Urban Studies </em>50 (8), S. 1540-1556. DOI: <a href="http://usj.sagepub.com/content/50/8/1540.abstract">10.1177/0042098012465905<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="10.1177/0042098012465905" border="0" /><img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="10.1177/0042098012465905" border="0" /></a> (mit Nadine Marquardt, Georg Glasze und Robert Pütz)</li>
+	<li>(2012) Spillover of the private city: BIDs as pivot of social control in Downtown Los Angeles. <em>European Urban and Regional Studies</em> 19 (2) S. 153 - 166, DOI: <a href="http://eur.sagepub.com/content/19/2/153.abstract?rss=1" target="_blank">10.1177/0969776411420019</a> (mit Nadine Marquardt)</li>
+	<li>(2011) Making life safe. Biosicherheit als Gegenstand der geographischen Forschung. <em>Geographische Revue</em> 13 (1/2), S. 73 - 92 (mit Jonathan Everts)</li>
+</ul>
+<h2>Aufsätze in Sammelbänden</h2>
+<ul>
+	<li></li>
+	<li>(2014) Global health security? Questioning an ‘emerging diseases worldview’. In: Cannon, Terry/Schipper, Lisa (Hg.): World Disasters Report 2014. Focus on culture and Risk. International Federation of Red Cross and Red Crescent Societies. S. 176–177.</li>
+	<li>(2014) Die Stadt im Diskurs. In: Belina, Bernd et al. <a href="http://www.dampfboot-verlag.de/buecher/955-7.html">Handbuch kritische Stadtgeographie<img src="http://geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Handbuch kritische Stadtgeographie" border="0" /></a>, Münster, Westfälisches Dampfboot, S. 70 - 75.</li>
+	<li>(2012) Einleitung. Raum als Heuristik für die sozialwissenschaftliche Machtanalyse. In: dies. (Hg): Die Ordnung der Räume. Münster, Westfälisches Dampfboot, S. 7-22. (mit Boris Michel)</li>
+	<li>(2012) Quarantäne. In: Marquardt, Nadine/Schreiber, Verena (Hg.): <a href="http://www.transcript-verlag.de/ts1968/ts1968.php"><em>Ortsregister: Ein Glossar zu Räumen der Gegenwart</em><img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Ortsregister: Ein Glossar zu Räumen der Gegenwart" border="0" /><img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Ortsregister: Ein Glossar zu Räumen der Gegenwart" border="0" /></a>. Bielefeld: Transcript, pp. 224–230.</li>
+	<li>(2010) Risikodenken und Stadtentwicklung. Politische Effekte veränderter sozialer Kontrolle am Beispiel Downtown Los Angeles. In: Egner, Heike/Pott, Andreas (Hg.): <em>Geographische Risikoforschung. Zur Konstruktion verräumlichter Risiken und Sicherheiten</em>. Stuttgart: Steiner, S. 213 - 228. (mit Nadine Marquardt)</li>
+	<li>(2009) Gouvernementalität in der humangeographischen Diskursforschung. In: Glasze, Georg/Mattissek, Annika (Hg.): <em>Handbuch Diskurs und Raum</em>. Bielefeld: Transcript. (mit Nadine Marquardt)</li>
+	<li>(2009) One step back to see the whole picture: conceiving governance as power relations. In: Eckardt, Frank/Elander, Ingemar (Hg.): <a href="https: /bwv-verlag.de/shop/bwv/index.php?page=detail&amp;match=LISA_NR2=1502"><em>Urban Governance in Europe. Future Urban Research in Europe 2</em></a>. Berlin: Berliner Wissenschaftsverlag, 93–110. (mit Nadine Marquardt)</li>
+	<li>(2008) Die Sicherstellung von Urbanität. Ambivalente Effekte von BIDs auf soziale Kontrolle in Los Angeles. In: Pütz, Robert (Hg.): <em>Business Improvement Districts. Ein neues Governance-Modell aus Perspektive von Praxis und Stadtforschung</em>. Passau, Geographische Handelsforschung, 119–138. (mit Nadine Marquardt)</li>
+	<li>(2008) Mit Sicherheit zuhause. Master Planned Communities als Technologie der Exklusion und sozialen Kontrolle. In: Klimke, Daniela (Hg.): <em>Exklusion in der Marktgesellschaft</em>. Wiesbaden: VS Verlag, 145–157. (mit Nadine Marquardt)</li>
+	<li>(2008) Zur Poststrukturalistischen Kritik des Scale-Konzepts. Für eine topologische Machtanalyse. In: Wissen, Markus/Röttger, Bernd/Heeg, Susanne (Hg.): <em>Politics of Scale. Räume der Globalisierung und Perspektiven emanzipatorischer Politik</em>. Münster: Westfälisches Dampfboot, 144–168. (mit Boris Michel)</li>
+</ul>
+<h2>Zeitschriftenaufsätze</h2>
+<ul>
+	<li>
+<div class="csl-bib-body">
+<div class="csl-entry">
+<div class="csl-bib-body">
+<div class="csl-entry">Füller, Henning/Everts, Jonathan (2014): Biosicherheit und Pandemievorsorge. In: Geographische Rundschau 66, S. 24–29.</div>
+</div>
+</div>
+<div class="csl-entry">(2014) Sicherheit, Prävention und Verortung. In: Geographische Rundschau 66, S. 4–7. (mit Georg Glasze)</div>
+</div></li>
+	<li>(2011) <a href="http://www.bmgev.de/mieterecho/archiv/2011/me-single/article/verstaerker-einer-verfehlten-wohnungspolitik.html">Verstärker einer verfehlten Wohnungspolitik</a>. in: MieterEcho 350.</li>
+	<li>(2005) Das Internet ist regierbar. Defizite und Perspektiven eines zentralen Problemfeldes der WSIS-Diskussion. in: Zeitschrift Entwicklungspolitik, 21/2005.</li>
+</ul>[/collapse][collapse title="Lehre" color="natfak"]Übersicht der Kurse und Lehrveranstaltungen von Henning Füller am Institut für Geographie
+
+(die Links führen auf die Seiten des Universitätsinformationssystem [UnivIS]. Unter Umständen bedarf es zur korrekten Darstellung einen weiteren Klick auf den Knopf „Trotzdem versuchen“)
+<h2>Lehrveranstaltungen im Wintersemester 2012/2013</h2>
+<ul>
+	<li><a href="http://www.univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/semkg_46&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/methse_1,/semkg_32,/semkg_46&amp;nosearch=1&amp;ref=main&amp;sem=2012w&amp;__e=636">KG Globalisierung<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="KG Globalisierung" border="0" /></a></li>
+	<li><a href="http://www.univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/semkg_32&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/methse_1,/semkg_32,/semkg_46&amp;nosearch=1&amp;ref=main&amp;sem=2012w&amp;__e=636">KG Neuordnungen des Städtischen<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="KG Neuordnungen des Städtischen" border="0" /></a></li>
+	<li><a href="http://www.univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/methse_1&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/methse_1,/semkg_32,/semkg_46&amp;nosearch=1&amp;ref=main&amp;sem=2012w&amp;__e=636">Spezielle Methoden KG: Vertiefte Methoden der empirischen Sozialforschung<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Spezielle Methoden KG: Vertiefte Methoden der empirischen Sozialforschung" border="0" /></a></li>
+</ul>
+<h2>Lehrveranstaltungen im Sommersemester 2012</h2>
+<ul>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/glsem__9&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/glsem__9&amp;nosearch=1&amp;ref=main&amp;sem=2012s&amp;tdir=natur1/ig&amp;__e=462">Großes Geländeseminar / Große Exkursion: New York<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Großes Geländeseminar / Große Exkursion: New York" border="0" /></a>Zum Download: <a href="http://www.geographie.uni-erlangen.de/docs/article/817/121024_DokumentationNewYork.pdf">Broschüre Grosses Geländeseminar NYC</a> (pdf)</li>
+</ul>
+<h2>Lehrveranstaltungen im Wintersemester 2011/2012</h2>
+<ul>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/fwkg_6&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/fwkg_6,/lfkg,/semgls_8,/semkg_4,phil/dfdida/ldigeo/stadte&amp;nosearch=1&amp;ref=main&amp;sem=2011w&amp;tdir=natur1/ig&amp;__e=462">Forschungswerkstatt Gesundheitskulturen<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Forschungswerkstatt Gesundheitskulturen" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/semkg_4&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/fwkg_6,/lfkg,/semgls_8,/semkg_4,phil/dfdida/ldigeo/stadte&amp;nosearch=1&amp;ref=main&amp;sem=2011w&amp;tdir=natur1/ig&amp;__e=462">Seminar KG: Politische Ökologie<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar KG: Politische Ökologie" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=phil/dfdida/ldigeo/stadte&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/fwkg_6,/lfkg,/semgls_8,/semkg_4,phil/dfdida/ldigeo/stadte&amp;nosearch=1&amp;ref=main&amp;sem=2011w&amp;tdir=natur1/ig&amp;__e=462">Seminar KG: Stadtentwicklung in Deutschland<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar KG: Stadtentwicklung in Deutschland" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/semgls_8&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/fwkg_6,/lfkg,/semgls_8,/semkg_4,phil/dfdida/ldigeo/stadte&amp;nosearch=1&amp;ref=main&amp;sem=2011w&amp;tdir=natur1/ig&amp;__e=462">Seminar zum Großen Geländeseminar: New York<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar zum Großen Geländeseminar: New York" border="0" /></a></li>
+</ul>
+<h2>Lehrveranstaltungen im Sommersemester 2011</h2>
+<ul>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/fwkg&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/fwkg,/glsem_34,/glsem_45,/glsem_7,/glsem__7,/semkg_2&amp;nosearch=1&amp;ref=main&amp;sem=2011s&amp;tdir=natur1/ig&amp;__e=462">Forschungswerkstatt Gesundheitskulturen<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Forschungswerkstatt Gesundheitskulturen" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/glsem__7&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/fwkg,/glsem_34,/glsem_45,/glsem_7,/glsem__7,/semkg_2&amp;nosearch=1&amp;ref=main&amp;sem=2011s&amp;tdir=natur1/ig&amp;__e=462">Großes Geländeseminar / Große Exkursion: Hongkong<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Großes Geländeseminar / Große Exkursion: Hongkong" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/glsem_7&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/fwkg,/glsem_34,/glsem_45,/glsem_7,/glsem__7,/semkg_2&amp;nosearch=1&amp;ref=main&amp;sem=2011s&amp;tdir=natur1/ig&amp;__e=462">Seminar zum Großen Geländeseminar: Hongkong<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar zum Großen Geländeseminar: Hongkong" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/glsem_34&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/fwkg,/glsem_34,/glsem_45,/glsem_7,/glsem__7,/semkg_2&amp;nosearch=1&amp;ref=main&amp;sem=2011s&amp;tdir=natur1/ig&amp;__e=462">Kleines Geländeseminar: Berlin<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Kleines Geländeseminar: Berlin" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/semkg_2&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/fwkg,/glsem_34,/glsem_45,/glsem_7,/glsem__7,/semkg_2&amp;nosearch=1&amp;ref=main&amp;sem=2011s&amp;tdir=natur1/ig&amp;__e=462">Seminar KG: Risikoforschung<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar KG: Risikoforschung" border="0" /></a></li>
+</ul>
+<h2>Lehrveranstaltungen im Wintersemester 2010/2011</h2>
+<ul>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=phil/dfdida/ldigeo/kgsem&amp;anonymous=1&amp;founds=phil/dfdida/ldigeo/kgsem,/kgsem_3&amp;nosearch=1&amp;ref=main&amp;sem=2010w&amp;tdir=natur1/ig&amp;__e=462">Seminar KG: Globalisierung<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar KG: Globalisierung" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=phil/dfdida/ldigeo/kgsem_3&amp;anonymous=1&amp;founds=phil/dfdida/ldigeo/kgsem,/kgsem_3&amp;nosearch=1&amp;ref=main&amp;sem=2010w&amp;tdir=natur1/ig&amp;__e=462">Seminar KG: Stadtentwicklung in Deutschland<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar KG: Stadtentwicklung in Deutschland" border="0" /></a></li>
+</ul>
+<h2>Lehrveranstaltungen im Sommersemester 2010</h2>
+<ul>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/fw&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/ex_1,/fw,/semkg_2,/semkg_67&amp;nosearch=1&amp;ref=main&amp;sem=2010s&amp;tdir=natur1/ig&amp;__e=462">Forschungswerkstatt Diskurs - Macht - Raum<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Forschungswerkstatt Diskurs - Macht - Raum" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/ex_1&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/ex_1,/fw,/semkg_2,/semkg_67&amp;nosearch=1&amp;ref=main&amp;sem=2010s&amp;tdir=natur1/ig&amp;__e=462">Kleines Geländeseminar: Berlin<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Kleines Geländeseminar: Berlin" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/semkg_2&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/ex_1,/fw,/semkg_2,/semkg_67&amp;nosearch=1&amp;ref=main&amp;sem=2010s&amp;tdir=natur1/ig&amp;__e=462">Seminar KG: Geomedizin<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar KG: Geomedizin" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/semkg_67&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/ex_1,/fw,/semkg_2,/semkg_67&amp;nosearch=1&amp;ref=main&amp;sem=2010s&amp;tdir=natur1/ig&amp;__e=462">Seminar KG: Weltstädte und Globalisierung<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar KG: Weltstädte und Globalisierung" border="0" /></a></li>
+</ul>
+<h2>Lehrveranstaltungen im Wintersemester 2009/2010</h2>
+<ul>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/mv&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/glsem,/mv,/semina_2,/spezia&amp;nosearch=1&amp;ref=main&amp;sem=2009w&amp;tdir=natur1/ig&amp;__e=462">Diskursforschung und visual studies - Repräsentationen von Stadt<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Diskursforschung und visual studies - Repräsentationen von Stadt" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/glsem&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/glsem,/mv,/semina_2,/spezia&amp;nosearch=1&amp;ref=main&amp;sem=2009w&amp;tdir=natur1/ig&amp;__e=462">Kleines Geländeseminar: Berlin<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Kleines Geländeseminar: Berlin" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/semina_2&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/glsem,/mv,/semina_2,/spezia&amp;nosearch=1&amp;ref=main&amp;sem=2009w&amp;tdir=natur1/ig&amp;__e=462">Seminar KG: Politische Geographie<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Seminar KG: Politische Geographie" border="0" /></a></li>
+	<li><a href="http://univis.uni-erlangen.de/form?__s=2&amp;dsc=anew/lecture_view&amp;lvs=nat/dgeo/IG/zentr/spezia&amp;anonymous=1&amp;founds=nat/dgeo/IG/zentr/glsem,/mv,/semina_2,/spezia&amp;nosearch=1&amp;ref=main&amp;sem=2009w&amp;tdir=natur1/ig&amp;__e=462">Spezialvorlesung: Politische Geographie<img src="http://www.geographie.uni-erlangen.de/components/com_sh404sef/images/external-black.png" alt="Spezialvorlesung: Politische Geographie" border="0" /></a></li>
+</ul>[/collapse][collapse title="Forschung" color="natfak"]Stadtforschung, Machttheorie, Biopolitik&nbsp;[/collapse][/collapsibles]]]></content:encoded>
+         <excerpt:encoded/>
+         <wp:post_id>1149</wp:post_id>
+         <wp:post_date><![CDATA[2017-12-06 16:27:41]]></wp:post_date>
+         <wp:post_date_gmt><![CDATA[2017-12-06 15:27:41]]></wp:post_date_gmt>
+         <wp:comment_status><![CDATA[closed]]></wp:comment_status>
+         <wp:ping_status><![CDATA[closed]]></wp:ping_status>
+         <wp:post_name><![CDATA[hfueller]]></wp:post_name>
+         <wp:status><![CDATA[publish]]></wp:status>
+         <wp:post_parent>0</wp:post_parent>
+         <wp:menu_order>0</wp:menu_order>
+         <wp:post_type><![CDATA[person]]></wp:post_type>
+         <wp:post_password><![CDATA[]]></wp:post_password>
+         <wp:is_sticky>0</wp:is_sticky>
+         <category domain="persons_category" nicename="ehemalige-mitarbeiterinnen"><![CDATA[Ehemalige Mitarbeiter/-innen]]></category>
+         <category domain="persons_category" nicename="kulturgeographie"><![CDATA[Kulturgeographie]]></category>
+         <category domain="persons_category" nicename="pol-soz"><![CDATA[Sozialgeographie und Politische Geographie]]></category>
+         <category domain="persons_category" nicename="stadt-region"><![CDATA[Stadtforschung und Regionalentwicklung]]></category>
+         <category domain="persons_category" nicename="wissenschaftliche-mitarbeiterinnen"><![CDATA[Wissenschaftliche Mitarbeiter-/innen]]></category>
+         <category domain="persons_category" nicename="wissenschaftliches-personal"><![CDATA[Wissenschaftliches Personal]]></category>
+         <wp:postmeta/>
+      </item>
+   </channel>
+</rss>
