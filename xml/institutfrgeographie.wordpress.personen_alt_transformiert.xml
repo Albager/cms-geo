@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This is the transformed XML export. You now have to find all links to files (image, pdfs) (this could be automated in XSL as well)-->
-<!-- Here e.g. with 'grep -o http:\/\/www\.geographie\.nat\.uni-erlangen\.de\/wp-content\/uploads\/.+?(pdf|txt|jpg|png|gif)'-->
+<!-- Here e.g. with 'grep -e http:\/\/www\.geographie\.nat\.uni-erlangen\.de\/wp-content\/uploads\/.+?(pdf|txt|jpg|png|gif)'-->
 <!-- Download these files with wget-->
 <!-- Use your regex(es) again with find&replace to update all links to the new site's corresponding URLs in this document-->
 <!-- Save the file and import your modified, transformed XML to the new site. Done. -->
