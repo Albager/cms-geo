@@ -1,6 +1,5 @@
-Vorgehensweise:
-
---XML-Export der alten Personenseiten erstellen (Werkzeuge -> Daten exportieren)
+Vorgehensweise Personenseiten:
+--XML-Export der alten Personenseiten erstellen (Werkzeuge -> Daten exportieren -> Personen)
 
 --XSLT-Transformation mit dem Stylesheet ausführen (getestet mit Saxon-HE 9.6.0.7)
 -->Inhalte der alten custom-fields (wp:postmeta) werden im content:encoded-Element zusammengebaut und automatisch in collapses gruppiert
@@ -19,3 +18,16 @@ wget -i downloadlinks.txt
 --Transformierten, angepassten XML-Export in die neue CMS-Instanz importieren (Werkzeuge -> Daten importieren)
 
 --Das Ergebnis: https://geographie.cms.rrze.uni-erlangen.de/person/
+
+
+Vorgehensweise (Unter-)Seiten:
+--XML-Export der alten Seiten erstellen (Werkzeuge -> Daten exportieren)
+
+-- im XSLT-Stylesheet "MigrateWPChildPages" die gewünschte Seiten-Id der Elternseite einstellen
+-- Transformation durchführen
+
+-- zweite Transformation mit XSLT Stylesheet "MigrateWPChildPages_contentOnly" durchführen
+
+-- ggf. Links und ersetzen
+
+-- Copy&Paste der accordion-items in ein bestehendes accordion in der FAU-CMS-Instanz (kann beliebig angepasst werden)
