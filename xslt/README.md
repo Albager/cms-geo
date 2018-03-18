@@ -1,38 +1,33 @@
 ## Vorgehensweise für Personenseiten:
+- XML-Export der alten Personenseiten erstellen (Werkzeuge -> Daten exportieren -> Personen)
 
---XML-Export der alten Personenseiten erstellen (Werkzeuge -> Daten exportieren -> Personen)
+- XSLT-Transformation mit dem Stylesheet ausführen (getestet mit Saxon-HE 9.6.0.7)
+  - Inhalte der alten custom-fields (wp:postmeta) werden im content:encoded-Element zusammengebaut und automatisch in collapses gruppiert
+  - beim Transformieren werden nur deutschsprachige Personenseiten berücksichtigt
 
---XSLT-Transformation mit dem Stylesheet ausführen (getestet mit Saxon-HE 9.6.0.7)
--->Inhalte der alten custom-fields (wp:postmeta) werden im content:encoded-Element zusammengebaut und automatisch in collapses gruppiert
--->beim Transformieren werden nur deutschsprachige Personenseiten berücksichtigt
+- alte Links aktualisieren:
+  - Regex, um Downloadlinks im alten XML-Export zu finden: `http:\/\/www\.geographie\.nat\.uni-erlangen\.de\/wp-content\/uploads\/.+?pdf|txt|jpg|png|gif`
+  - Dateien runterladen mit `wget -i downloadlinks.txt`
 
-*--alte Links aktualisieren:*
+- Heruntergeladene Dateien in die neue CMS-Instanz hochladen
 
--->Regex, um Downloadlinks im alten XML-Export zu finden:
-`http:\/\/www\.geographie\.nat\.uni-erlangen\.de\/wp-content\/uploads\/.+?pdf|txt|jpg|png|gif`
+- im transformierten XML-Export regex http:\/\/www\.geographie\.nat\.uni-erlangen\.de\/wp-content\/uploads\/ (und ggf. andere Links auf die alte Seite) ersetzen mit https://geographie.cms.rrze.uni-erlangen.de/files/[JAHRESORDNER]/[MONATSORDNER]/
 
--->Dateien runterladen mit `wget -i downloadlinks.txt`
+- ggf. Kodierungsfehler/Sonderzeichenfehler beheben
 
--->Heruntergeladene Dateien in die neue CMS-Instanz hochladen
+- Transformierten, angepassten XML-Export in die neue CMS-Instanz importieren (Werkzeuge -> Daten importieren)
 
---im transformierten XML-Export regex http:\/\/www\.geographie\.nat\.uni-erlangen\.de\/wp-content\/uploads\/ (und ggf. andere Links auf die alte Seite) ersetzen mit https://geographie.cms.rrze.uni-erlangen.de/files/[JAHRESORDNER]/[MONATSORDNER]/
-
---ggf. Kodierungsfehler/Sonderzeichenfehler beheben
-
---Transformierten, angepassten XML-Export in die neue CMS-Instanz importieren (Werkzeuge -> Daten importieren)
-
---Das Ergebnis: https://geographie.cms.rrze.uni-erlangen.de/person/
+- Das Ergebnis: https://geographie.cms.rrze.uni-erlangen.de/person/
 
 ## Vorgehensweise für (Unter-)Seiten:
+- XML-Export der alten Seiten erstellen (Werkzeuge -> Daten exportieren)
 
---XML-Export der alten Seiten erstellen (Werkzeuge -> Daten exportieren)
+- im [XSLT-Stylesheet](xslt/MigrateWPChildPages.xsl) die gewünschte Seiten-Id der Elternseite einstellen
 
--- im XSLT-Stylesheet "MigrateWPChildPages" die gewünschte Seiten-Id der Elternseite einstellen
+- Transformation durchführen
 
--- Transformation durchführen
+- zweite Transformation mit XSLT Stylesheet "MigrateWPChildPages_contentOnly" durchführen
 
--- zweite Transformation mit XSLT Stylesheet "MigrateWPChildPages_contentOnly" durchführen
+- ggf. Links aktualisieren
 
--- ggf. Links und ersetzen
-
--- Copy&Paste der accordion-items in ein bestehendes accordion in der FAU-CMS-Instanz (kann beliebig angepasst werden)
+- Copy&Paste der accordion-items in ein bestehendes accordion in der FAU-CMS-Instanz (kann beliebig angepasst werden)
