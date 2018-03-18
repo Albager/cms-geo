@@ -1,7 +1,7 @@
 ## Vorgehensweise für Personenseiten:
 - XML-Export der alten Personenseiten erstellen (Werkzeuge -> Daten exportieren -> Personen)
 
-- XSLT-Transformation mit dem [XSLT-Stylesheet MigrateWPPersonKontakt](xslt/MigrateWPPersonKontakt.xsl) ausführen (getestet mit Saxon-HE 9.6.0.7)
+- XSLT-Transformation mit dem [XSLT-Stylesheet MigrateWPPersonKontakt](MigrateWPPersonKontakt.xsl) ausführen (getestet mit Saxon-HE 9.6.0.7)
   - Inhalte der alten custom-fields (wp:postmeta) werden im content:encoded-Element zusammengebaut und automatisch in collapses gruppiert
   - beim Transformieren werden nur deutschsprachige Personenseiten berücksichtigt
 
@@ -22,11 +22,11 @@
 ## Vorgehensweise für (Unter-)Seiten:
 - XML-Export der alten Seiten erstellen (Werkzeuge -> Daten exportieren)
 
-- im [XSLT-Stylesheet MigrateWPChildPages](xslt/MigrateWPChildPages.xsl) die gewünschte Seiten-Id der Elternseite einstellen
+- im [XSLT-Stylesheet MigrateWPChildPages](MigrateWPChildPages.xsl) die gewünschte Seiten-Id der Elternseite einstellen
 
 - Transformation durchführen
 
-- zweite Transformation mit [XSLT-Stylesheet MigrateWPChildPages_contentOnly](xslt/MigrateWPChildPages_contentOnly.xsl) durchführen
+- zweite Transformation mit [XSLT-Stylesheet MigrateWPChildPages_contentOnly](MigrateWPChildPages_contentOnly.xsl) durchführen
 
 - im Output ggf. Links aktualisieren
 
