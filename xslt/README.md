@@ -1,4 +1,4 @@
-Vorgehensweise Personenseiten:
+###Vorgehensweise Personenseiten:
 --XML-Export der alten Personenseiten erstellen (Werkzeuge -> Daten exportieren -> Personen)
 
 --XSLT-Transformation mit dem Stylesheet ausführen (getestet mit Saxon-HE 9.6.0.7)
@@ -19,8 +19,7 @@ wget -i downloadlinks.txt
 
 --Das Ergebnis: https://geographie.cms.rrze.uni-erlangen.de/person/
 
-
-Vorgehensweise (Unter-)Seiten:
+###Vorgehensweise (Unter-)Seiten:
 --XML-Export der alten Seiten erstellen (Werkzeuge -> Daten exportieren)
 
 -- im XSLT-Stylesheet "MigrateWPChildPages" die gewünschte Seiten-Id der Elternseite einstellen
