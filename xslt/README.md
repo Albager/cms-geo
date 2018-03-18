@@ -11,7 +11,7 @@
 
 - Heruntergeladene Dateien in die neue CMS-Instanz hochladen
 
-- im transformierten XML-Export regex http:\/\/www\.geographie\.nat\.uni-erlangen\.de\/wp-content\/uploads\/ (und ggf. andere Links auf die alte Seite) ersetzen mit https://geographie.cms.rrze.uni-erlangen.de/files/[JAHRESORDNER]/[MONATSORDNER]/
+- im transformierten XML-Export regex `http:\/\/www\.geographie\.nat\.uni-erlangen\.de\/wp-content\/uploads\/` (und ggf. andere Links auf die alte Seite) ersetzen mit `https://geographie.cms.rrze.uni-erlangen.de/files/[JAHRESORDNER]/[MONATSORDNER]/`
 
 - ggf. Kodierungsfehler/Sonderzeichenfehler beheben
 
