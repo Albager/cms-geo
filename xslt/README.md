@@ -17,8 +17,6 @@
 
 - Transformierten, angepassten XML-Export in die neue CMS-Instanz importieren (Werkzeuge -> Daten importieren)
 
-- Das Ergebnis: https://geographie.cms.rrze.uni-erlangen.de/person/
-
 ## Vorgehensweise für (Unter-)Seiten:
 - XML-Export der alten Seiten erstellen (Werkzeuge -> Daten exportieren)
 
