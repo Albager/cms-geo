@@ -20,7 +20,7 @@
 - Copy&Paste der accordion-items in ein bestehendes accordion in der FAU-CMS-Instanz (kann beliebig angepasst werden)
 
 ## Vorgehensweise CSV aus Kontakte-XML-Export
-- XML-Export aller Kontakte der (neuen) CMS-Instanz durchführen
+- XML-Export aller Kontakte der (neuen) CMS-Instanz erstellen
 - Transformation mit [XSLT-Stylesheet ExtractKontakt_CSV](ExtractKontakt_CSV.xsl) durchführen
 - Der Ouput kann dann einfach in einem Tabellenkalkulationsprogramm weiterverwendet werden
 - enthält die Spalten: *title link wp:post_id wp:post_name fau_person_univis_id*
