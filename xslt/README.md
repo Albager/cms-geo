@@ -23,4 +23,4 @@
 - XML-Export aller Kontakte der (neuen) CMS-Instanz erstellen
 - Transformation mit [XSLT-Stylesheet ExtractKontakt_CSV](ExtractKontakt_CSV.xsl) durchführen
 - Der Ouput kann dann einfach in einem Tabellenkalkulationsprogramm weiterverwendet werden
-- enthält die Spalten: *title link wp:post_id wp:post_name fau_person_univis_id*
+- enthält die Spalten: title | link | wp:post_id | wp:post_name | fau_person_univis_id
