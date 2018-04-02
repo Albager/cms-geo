@@ -7,18 +7,15 @@
     <xsl:output method="text" indent="yes" omit-xml-declaration="yes"
         cdata-section-elements="content:encoded wp:meta_value wp:author_login wp:author_email wp:author_display_name wp:author_first_name wp:author_last_name"/>
     
-    
-    <!-- Ab hier Personen -->
     <xsl:template match="text()"/>
+    
     <xsl:template match="/">
         <xsl:text>title;link;wp:post_id;wp:post_name;fau_person_univis_id</xsl:text>
         <xsl:text>&#xa;</xsl:text>
         <xsl:apply-templates/>
     </xsl:template>
     
-    
-    <xsl:template match="item">
-        
+    <xsl:template match="item">        
         <item>                
                 <xsl:value-of select="title"/>
                 <xsl:text>;</xsl:text>
